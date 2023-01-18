@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+
+    
+    <title>Frontend Mentor | Notifications page</title>
+  </head>
+  <body>
+    <div class="notifications">
+      <div class="notifications-header">
+        <div class="header-titleAndNumber">
+          <h1 class="header-title">Notifications</h1>
+          <div class="header-number" id="header-number">3</div>
+        </div>
+        <button class="read-messages" id="read-messages">Mark all as read</button>
+      </div>
+      <div class="main">
+        <div class="notification unread">
+          <img src="./assets/images/avatar-mark-webber.webp" alt="A photo of a person who is a user of the app" class="person-photo">
+          <div class="post-content">
+            <p class="post-info"><span class="person-name">Mark Webber </span><span class="person-action">reacted to your recent post <span class="user-post-reacted-title">My first tournament today!</span></span>
+            <span class="unread-icon"></span>
+            </p>
+            <span class="post-time">1m ago</span>
+          </div>
+        </div>
+        <div class="notification unread">
+          <img src="./assets/images/avatar-angela-gray.webp" alt="A photo of a person who is a user of the app" class="person-photo">
+          <div class="post-content">
+            <p class="post-info"><span class="person-name">Angela Gray </span><span class="person-action">followed you</span>
+              <span class="unread-icon"></span>
+            </p>
+            <span class="post-time">5m ago</span>
+          </div>
+        </div>
+        <div class="notification unread">
+          <img src="./assets/images/avatar-jacob-thompson.webp" alt="A photo of a person who is a user of the app" class="person-photo">
+          <div class="post-content">
+            <p class="post-info"><span class="person-name">Jacob Thompson </span><span class="person-action">has joined your group </span><span class="group-name">Chess Club</span>
+              <span class="unread-icon"></span>
+            </p>
+            <span class="post-time">1 day ago</span>
+          </div>
+        </div>
+        <div class="notification read">
+          <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="A photo of a person who is a user of the app" class="person-photo">
+          <div class="post-content">
+            <p class="post-info"><span class="person-name">Rizky Hasanuddin </span><span class="person-action">sent you a private message</span>
+              <span class="unread-icon"></span>
+            </p>
+            <span class="post-time">5 days ago</span>
+            <p class="person-comment">
+              Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+              I'm already having lots of fun and improving my game.
+            </p>
+          </div>
+        </div>
+        <div class="notification read photo">
+          <div class="notification-left-side">
+            <img src="./assets/images/avatar-kimberly-smith.webp" alt="A photo of a person who is a user of the app" class="person-photo">
+            <div class="post-content">
+              <p class="post-info"><span class="person-name">Kimberly Smith </span><span class="person-action">commented on your picture</span>
+                <span class="unread-icon"></span>
+              </p>
+              <span class="post-time">1 week ago</span>
+            </div>
+          </div>
+          <img src="./assets/images/image-chess.webp" alt="A woman playing chess" class="photo-commented">
+        </div>
+        <div class="notification read">
+          <img src="./assets/images/avatar-nathan-peterson.webp" alt="A photo of a person who is a user of the app" class="person-photo">
+          <div class="post-content">
+            <p class="post-info"><span class="person-name">Nathan Peterson </span><span class="person-action">reacted to your recent post</span>
+              <span class="user-post-reacted-title">5 end-game strategies to increase your win rate
+            </span>
+            <span class="unread-icon"></span>
+            </p>
+            <span class="post-time">2 weeks ago</span>
+          </div>
+        </div>
+        <div class="notification read">
+          <img src="./assets/images/avatar-anna-kim.webp" alt="A photo of a person who is a user of the app" class="person-photo">
+          <div class="post-content">
+            <p class="post-info"><span class="person-name">Anna Kim </span><span class="person-action">left the group </span><span class="group-name">Chess Club</span>
+              <span class="unread-icon"></span>
+            </p>
+            <span class="post-time">2 weeks ago</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./assets/scripts/index.js"></script>
+  </body>
+</html>
